@@ -8,7 +8,8 @@ const todoRoutes = require('./routes/todo.routes.js')
 app.use("/api/data", todoRoutes)
 
 //start server
-app.listen(process.env.PORT || 3000, ()=>{
+const port = process.env.PORT || 3000
+app.listen(port, ()=>{
     console.log(`Server is up and listening at ${process.env.PORT}`)
 })
 

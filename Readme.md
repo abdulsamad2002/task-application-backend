@@ -8,7 +8,7 @@ Tech Stack used is MongoDB, ExpressJS, NodeJs.
 
 ### Mounting hierarchy: /api/data/
 
-## Routes
+## API Routes
 
 ### 1. `/createTodo`
 
